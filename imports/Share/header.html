@@ -1,0 +1,45 @@
+<template name="header">
+	<div class="header">
+		<div class="header-web">
+            <nav class="navbar fix-top web-navbar">
+                <div class="col"></div>
+                <div class="col-8">
+                    <ul class="nav p-4 justify-content-around align-items-center">
+                        <li class="nav-item">
+                            <a class="header-a" href="">關於凱特</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{pathFor route='home.index'}}">
+                                <img class="rounded-circle" src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-1/p200x200/22406234_1580415025349152_5722709860720185166_n.jpg?_nc_cat=107&_nc_oc=AQmvgkm9q-oXSnrR5YXz8Q9f6vmJcfcZBbGf4dwyn4ZEN5-_N9mVofvTueBxrI3zVk0&_nc_ht=scontent-tpe1-1.xx&oh=5689108e7e98d1611499adb8f6ee0d56&oe=5DBBE60B" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header-a" href="Article/index.html">文章</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col"></div>
+            </nav>
+        </div>
+        
+        <div class="header-Mobile">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#" style="font-size: 0.9em;">凱特夫人</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link header-a" href="Article/index.html">文章</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-a" href="#">關於凱特</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+	</div>
+</template>

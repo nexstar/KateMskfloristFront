@@ -1,0 +1,27 @@
+footer {
+
+    background-color: #006737;
+    color: white;
+    font-size: 1.7em;
+
+    .footer{
+
+        &-icon {
+            color: white;
+        }
+
+        &-ul {
+            text-align: center;
+            &-a {
+                color: white;
+                &:hover {
+                    color:white;
+                }
+            }
+
+        }
+
+    }
+
+}
+

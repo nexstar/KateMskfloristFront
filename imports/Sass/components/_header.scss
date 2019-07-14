@@ -1,0 +1,53 @@
+.header {
+    &-Mobile{
+        display: none
+    }
+
+    &-carousel-inner,
+    &-carousel,
+    &-carousel-img {
+        height: 640px;
+        
+    }
+
+    &-a {
+        font-size: 1.8em;
+        color: $color-gray-light-1;
+        &:hover {
+            color: $color-black-light-1;
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+
+        &-a {
+            font-size: .7em;
+            color: $color-gray-light-1;
+            &:hover {
+                color: $color-black-light-1;
+                text-decoration: none;
+            }
+        } 
+        
+        &-web{
+            display: none;
+        }
+
+        &-Mobile{
+            display: block;
+            font-size: 20px;
+            background-color: $color-green-light-1;
+            color: $color-white-light-1;
+        }
+
+        &-carousel-inner,
+        &-carousel,
+        &-carousel-img {
+            height: 160px;
+            
+        }
+
+    }
+
+}

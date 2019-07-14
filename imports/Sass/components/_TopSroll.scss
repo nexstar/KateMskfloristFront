@@ -1,0 +1,13 @@
+#goTop {
+    position: fixed;
+    bottom: 5px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+    right: 15px; /* 與右方的距離 */
+    width: 50px; /* 按鈕原始寬度 */
+    height: 50px; /* 按鈕原始高度 */
+    opacity: 0.4; /* 按鈕原始透明度 */
+    z-index: 10;
+    cursor: pointer;
+    // transition: all .5s; /* 動畫效果 持續期間 */
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
